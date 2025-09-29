@@ -1,0 +1,20 @@
+mode: set
+shipping-test/shipping.go:10.75,12.32 1 1
+shipping-test/shipping.go:12.32,14.3 1 1
+shipping-test/shipping.go:17.2,17.14 1 1
+shipping-test/shipping.go:18.18,19.35 1 1
+shipping-test/shipping.go:20.23,21.36 1 1
+shipping-test/shipping.go:22.17,23.36 1 1
+shipping-test/shipping.go:24.10,26.49 1 1
+shipping-test/shipping_v2.go:10.87,12.32 1 1
+shipping-test/shipping_v2.go:12.32,14.3 1 1
+shipping-test/shipping_v2.go:17.2,18.14 2 1
+shipping-test/shipping_v2.go:19.18,20.16 1 1
+shipping-test/shipping_v2.go:21.23,22.17 1 1
+shipping-test/shipping_v2.go:23.17,24.17 1 1
+shipping-test/shipping_v2.go:25.10,26.49 1 1
+shipping-test/shipping_v2.go:30.2,31.17 2 1
+shipping-test/shipping_v2.go:31.17,33.3 1 1
+shipping-test/shipping_v2.go:36.2,40.13 3 1
+shipping-test/shipping_v2.go:40.13,42.3 1 1
+shipping-test/shipping_v2.go:45.2,47.24 2 1
