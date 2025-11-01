@@ -1,0 +1,35 @@
+# Snyk policy file for cicd-demo project
+# Exercise 3: Vulnerability Management
+
+version: v1.0.0
+
+# Ignore specific vulnerabilities
+ignore:
+  # Ignoring jackson-databind vulnerabilities for demonstration purposes
+  # This demonstrates how to manage acceptable risks
+  'SNYK-JAVA-COMFASTERXMLJACKSONCORE-72448':
+    - '*':
+        reason: 'Exercise 3: Demonstrating ignore policy - Acceptable risk for learning purposes'
+        expires: '2024-12-31T23:59:59.999Z'
+        created: '2024-11-01T00:00:00.000Z'
+  
+  'SNYK-JAVA-COMFASTERXMLJACKSONCORE-2326698':
+    - '*':
+        reason: 'Exercise 3: Known issue, fix scheduled for next sprint'
+        expires: '2024-12-31T23:59:59.999Z'
+        created: '2024-11-01T00:00:00.000Z'
+
+# Patch configuration
+patches: {}
+
+# Language-specific settings
+language-settings:
+  java:
+    # Maven-specific options
+    maven-aggregate-project: false
+
+# Project-specific exclusions
+exclude:
+  - 'target/**'
+  - '**/*.class'
+  - 'logs/**'
