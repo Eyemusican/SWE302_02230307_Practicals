@@ -245,11 +245,11 @@ LocalStack significantly improves the development workflow in multiple ways:
 
 ## Key Achievements
 
-**100% Vulnerability Remediation:** Fixed all 12 HIGH vulnerabilities and 2 MEDIUM vulnerabilities  
-**Enterprise-Grade Security:** Implemented KMS encryption, access logging, versioning, and lifecycle policies  
-**Least Privilege IAM:** Replaced wildcard permissions with specific, minimal-required actions  
-**Successful Deployment:** Website fully functional on LocalStack S3  
-**Infrastructure as Code Best Practices:** Version-controlled, reproducible, and secure infrastructure  
+- **100% Vulnerability Remediation:** Fixed all 12 HIGH vulnerabilities and 2 MEDIUM vulnerabilities  
+- **Enterprise-Grade Security:** Implemented KMS encryption, access logging, versioning, and lifecycle policies  
+- **Least Privilege IAM:** Replaced wildcard permissions with specific, minimal-required actions  
+- **Successful Deployment:** Website fully functional on LocalStack S3  
+- **Infrastructure as Code Best Practices:** Version-controlled, reproducible, and secure infrastructure  
 
 ---
 
