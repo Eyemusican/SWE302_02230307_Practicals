@@ -12,7 +12,11 @@
     "test:k6:api": "k6 run tests/k6/api-endpoint-test.js",
     "test:k6:page": "k6 run tests/k6/page-load-test.js",
     "test:k6:concurrent": "k6 run tests/k6/concurrent-users-test.js",
-    "test:k6:all": "k6 run tests/k6/smoke-test.js && k6 run tests/k6/api-endpoint-test.js && k6 run tests/k6/page-load-test.js"
+    "test:k6:all": "k6 run tests/k6/smoke-test.js && k6 run tests/k6/api-endpoint-test.js && k6 run tests/k6/page-load-test.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run",
+    "test:e2e:open": "start-server-and-test dev http://localhost:3000 cypress:open"
   },
   "dependencies": {
     "next": "16.0.0",
@@ -27,6 +31,7 @@
     "cypress": "^15.7.1",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
+    "start-server-and-test": "^2.0.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

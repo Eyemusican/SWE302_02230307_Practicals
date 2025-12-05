@@ -46,6 +46,11 @@ export default function Home() {
         ? `/api/dogs?breed=${selectedBreed}`
         : '/api/dogs';
       const response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch');
+      }
+
       const data: DogApiResponse = await response.json();
 
       if (data.status === 'success') {
@@ -53,6 +58,8 @@ export default function Home() {
           ? data.message[0]
           : data.message;
         setDogImage(imageUrl);
+      } else {
+        setError('Failed to load dog image');
       }
     } catch {
       setError('Failed to load dog image');
