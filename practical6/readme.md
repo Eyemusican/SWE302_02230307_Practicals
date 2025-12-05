@@ -1,22 +1,5 @@
 # Practical 6 Submission - Infrastructure as Code with Terraform and LocalStack
 
-**Student:** Tenzin  
-**Date:** December 5, 2025  
-**Course:** SWE302 - Software Engineering  
-
----
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Completed Tasks](#completed-tasks)
-3. [Security Vulnerabilities Fixed](#security-vulnerabilities-fixed)
-4. [Screenshots](#screenshots)
-5. [Reflection Questions](#reflection-questions)
-6. [Technologies Used](#technologies-used)
-7. [Repository](#repository)
-
----
-
 ## Overview
 
 This practical demonstrates the implementation of Infrastructure as Code (IaC) using Terraform to provision AWS S3 buckets on LocalStack, deploy a Next.js static website, and secure infrastructure code using Trivy security scanner.
